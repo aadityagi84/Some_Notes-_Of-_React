@@ -50,3 +50,10 @@
 - Parts of Large Projects: Useful even in large projects where you need a more efficient state management solution.
 - zustand is becoming popular because it simplifies state management in React apps while offering high performance.
 
+- ### vite for using .env
+- ```
+  const Backend_URL = import.meta.env.VITE_SERVER_URL;
+  ```
+  - **in DOTENV**
+  - VITE_SERVER_URL="http://localhost:8001"
+
